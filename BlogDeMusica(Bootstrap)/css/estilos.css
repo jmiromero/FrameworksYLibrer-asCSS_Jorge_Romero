@@ -10,11 +10,13 @@ body {
 }
 
 .menu{
-  background-color: grey;
-  border-radius: 15px;
-  padding: 1px;
+  background-color:rgb(3, 3, 117);
+  border-radius: 50px;
+  border: solid black 0.5;
+  padding: 1%;
   color: white;
-  text-shadow:1px 1px 2px black, 0 0 25px orangered;
+  text-shadow:1px 1px 2px black, 0 0 25px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu a{
@@ -24,47 +26,51 @@ body {
 .form-group{
   padding-top: 15px;
 }
+
 .nota{
   padding-top: 15px;
   margin: 5px;
   border-radius: 10px;
 }
 .comentario{
-  padding-top: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
 }
 
 .logo{
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 100%;
+  border-radius: 125px;
+  box-shadow:0 4px 8px 0 rgba(47, 1, 250, 0.2), 0 20px 20px 0 rgba(47, 1, 250, 0.19);
 }
 
 .nota-img {
   width: 100%;
+  margin-bottom: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 .redes-img {
-  width: 40px;
-  margin-top: 50%;   
+  width: 50px;
+  margin-top: 70%;   
+  border-radius: 125px;
+  box-shadow: 0 4px 8px 0 rgba(47, 1, 250, 0.2), 0 6px 20px 0 rgba(47, 1, 250, 0.19);
 }
 
 .cuerpo {
-  margin-top: 20px;
-  max-width: 92%;
-}
-
-.contenido{
-  background: rgba(255,87,51, 0.5);
+  margin-top: 10px;
+  max-width: 90%;
 }
 
 .panel-busqueda{
-  background: #8719B2;
+  margin-top: 20px;
+  background: rgb(3, 3, 117);
   padding: 15px;
-}
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
-.opciones{
-  border-style: double;
-  padding: 15px;
-  color: white;
 }
 
 @media (max-width: 770px) {
@@ -79,11 +85,23 @@ body {
     margin: 0px;
     padding: 0px;
     max-width: 100%;
+    color: white;
   }
-
+  .redes-img{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .menu{
+    border-radius: 0px;
+  }
 }
 
 h2{
-  text-shadow: 1px  1px 3px  black;
-
+  text-shadow: 1px  1px 3px  rgb(161, 159, 159);
 }
+
+ul{
+  background: rgb(78, 88, 134);
+  border-radius: 50px;
+}
+
