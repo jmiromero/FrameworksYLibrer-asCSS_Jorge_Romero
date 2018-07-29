@@ -6,72 +6,115 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <title>Blog de turismo</title>
+  <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico" rel="stylesheet">
+  <title>En Busca de Aventuras</title>
 </head>
 <body>
-  <div class="row encabezado"> <!--Encabezado-->
-    <nav class="transparentBG s12 col hide-on-small-only">
-        <div class="">
-          <a class="brand-logo left hide-on-small-only" href="#"><img src="img/logo.jpg" class="logo"/></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#"><i class="material-icons left">dashboard</i>Inicio</a></li>
-            <li><a href="#"><i class="material-icons left">add_location</i>Estuve en...</a></li>
-            <li><a href="#"><i class="material-icons left">airplanemode_active</i>Mejores viajes</a></li>
-            <li><a href="#"><i class="material-icons left">favorite_border</i>Recomendaciones</a></li>
-          </ul>
-        </div>
-      </nav>
+  <div class="row encabezado "> <!--Encabezado-->
+      <nav class="nav-wrapper hide-on-med-and-down">
+      <a class="brand-logo" href="#"><img src="img/logo.jpg" class="logo sombra"/></a>
+      <ul class="right">
+        <li class="active"><a href="#"><i class="material-icons left">dashboard</i>Inicio</a></li>
+        <li><a href="#"><i class="material-icons left">add_location</i>Estuve en...</a></li>
+        <li><a href="#"><i class="material-icons left">airplanemode_active</i>Mejores viajes</a></li>
+        <li><a href="#"><i class="material-icons left">favorite_border</i>Recomendaciones</a></li>
+      </ul>
+    </nav>
+    <h1 class="center">Adventur tour</h1>
   </div>  
-  <div class="row"> <!--Galeria de Imagenes-->
-    <div class="col s1 m1 l1"> <!--Iconos Redes Sociales-->
+  
+  <div class="row galeria"> <!--Galeria de Imagenes-->
+    <div class="col s1 m1 l1 hide-on-small-only"> <!--Iconos Redes Sociales-->
       <ul>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/facebook.png"/></a></li>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/instagram.png"/></a></li>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/youtube.png"/></a></li>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/whatsapp.png"/></a></li>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/google-plus.png"/></a></li>
-        <li class="icono-lateral"><a href="#" class="btn-floating white"><img src="img/gorjeo.png"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/facebook.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/instagram.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/youtube.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/whatsapp.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/google-plus.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/twitter.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/myspace.svg"/></a></li>
+        <li class="icono-lateral"><a href="#" class="btn-floating "><img src="img/pinterest.svg"/></a></li>
       </ul>
     </div>
     <div class="col s12 m4 l4"> <!--1er grupo de Imagenes-->
-      <img src="img/paisaje1.jpg" alt="">
-      <img src="img/paisaje2.jpg" alt="">
+      <img class="sombra" src="img/paisaje1.jpg" alt="">
+      <img class="sombra" src="img/paisaje2.jpg" alt="">
     </div>
     <div class="col s12 m3 l3"> <!--2do grupo de Imagenes-->
-      <img src="img/paisaje3.jpg" alt="">
+      <img class="sombra" src="img/paisaje3.jpg" alt="">
     </div>
     <div class="col s12 m4 l4"> <!--3er grupo de Imagenes-->
-      <img src="img/paisaje4.jpg" alt="">
-      <img src="img/paisaje5.jpg" alt="">
-      <img src="img/paisaje6.jpg" alt="">
+      <img class="sombra" src="img/paisaje4.jpg" alt="">
+      <img class="sombra" src="img/paisaje5.jpg" alt="">
+      <img class="sombra" src="img/paisaje6.jpg" alt="">
     </div>
-    
   </div>     
   <div class="row"> <!--Entradas de Blog-->
     <div class="col s12 m8 l8"> <!--Nota-->
-      <div class="row">
-        <img id="nota" src="img/nota.jpg" alt="cenoteilkil">
-        <h5>Il Kil</h5>
+      <div class="row nota sombra"> <!--Articulo-->
+        <h3>Il Kil</h3>
+        <img class="responsive-img articulo sombra" src="img/nota.jpg" alt="cenoteilkil"/>
+        <div class="chip">
+          <img src="img/posicion.png"/>
+          Yucatán, México
+        </div>
+        <div class="chip">
+          <img src="img/calendario.png"/>
+          21 de Septiembre de 2017
+        </div>
+        <br>
         <p>
-          Alrededor de este impresionantes y bellísimo cenote se ha elaborado todo un eco-parque, en el que destacan, además de su exuberante floresta y muchas aves, la posibilidad de pernoctar en alguna de sus cabañitas de alto standing, al más puro estilo maya, pero con jacuzzi. No faltan restaurantes y comercios donde comprar recuerdos. El cenote Ik Kil es uno de los lugares más espectaculares de Yucatán a tan solo 3 kilómetros de Chichén Itzá. No debes perdértelo.
+          Se encuentra ubicado a 3 kms de la zona arqueológica de Chiche Itza, 35 minutos de la ciudad colonial de Valladolid y a solo una hora y media de Mérida, la ciudad blanca.
+        </p>
+        <p>
+          Cenote de Ik Kil es un parque rodeado de plantas exóticas y árboles que es el hábitat perfecta para cientos de aves silvestres, tales como: tucanes, loros, cenzontles, cardenales, cazadores de moscas, turquesa mot-mot, y varios más.
+        </p>
+        <p>
+          Las noches en Ik Kil son una mezcla de sonidos de las ranas, los grillos y monos, ya que se encuentra rodeado de árboles en donde los pequeños animales silvestres como el venado se acercan y desfrutan de la belleza natural que este lugar tiene. Todo esto pasa mientras usted disfruta de las estrellas y se relaja en alguna de las palapas de lujo que tiene aire acondicionado y jacuzzi.
+        </p>
+        <p>
+          El principal atractivo de Ik Kil es el Cenote, que en su superficie se encuentra adornado de vegetación y en el que se puede ver la profundidad en la que s encuentra. Para llegar deben bajar por una escaleras hechas de piedra y en donde encontraras pequeños balcones para que admires su belleza desde diversos puntos, al llegar hay una plataforma que da acceso a sus aguas frescas y cristalinas en la que se pueden ver sus pequeños bagres que viven en él. Este lugar es ideal después de que usted haya visitado las ruinas mayas de Chichén Itzá o Ek Balam, pues encontrara alivio al refrescarse en sus aguas frescas.
         </p>
       </div>
-      <div class="row">
-          Comentarios
+      <div class="row comentario sombra"> <!--Comentarios-->
+          <h5> Deja tu comentario</h5>
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" name="nombre">
+            <Label for="nombre">Nombre</Label>
+          </div>
+          
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">email</i>
+            <input type="email" name="email">
+            <label for="email">Correo Electrónico</label>
+          </div>
+          
+          <div class="input-field col s12 m12 l12">
+            <i class="material-icons prefix">chat</i>
+            <input type="text" name="comentario">
+            <label for="comentario">comentario</label>
+            <hr>
+          </div>
+          
+          <div class="input-field col s4 offset-s3 m5 offset-m7 l2 offset-l10">
+            <a class="btn btn-medium waves-effect" href="">Enviar</a>
+          </div>
+        
       </div>
     </div>
     <div class="col s12 m4 l4"> <!--Perfil del Autor-->
-      <img class="circle responsive-img center-align" src="img/autor.jpg" alt="Aristofennes">
-      <hr>
-      <h5 class="">Perfil del Autor</h5> 
-      <p>
-          En el mundo de los viajes me conocen como Aristofennes; siendo este nombre el que utilizo en el blog.  Soy el blogger de viajes autor de Blogtrip, un humilde espacio personal de relatos viajeros. Nací en la ciudad caribeña de Santa Marta Colombia y me crié a punto de arroz con coco, pescado frito y música tropical. Resido en Francia y poseo la doble nacionalidad franco-colombiana. Pero me considero un ciudadano del mundo. Por cosas del destino, mi infancia y mi adolescencia la pasé viajando por toda Colombia con mi familia. Yo pienso de ahí nació ese deseo  de ser nómada moderno y de estar en constante movimiento.
-      </p>
+      <div class="nota sombra">
+        <img class="circle responsive-img center sombra" src="img/autor.jpeg" alt="Aristofennes">
+        <hr>
+        <h4 style="text-align: center">Perfil del Autor</h4> 
+        <p>
+            En el mundo de los viajes me conocen como Aristofennes; siendo este nombre el que utilizo en el blog.  Soy el blogger de viajes autor de Blogtrip, un humilde espacio personal de relatos viajeros. Nací en la ciudad caribeña de Santa Marta Colombia y me crié a punto de arroz con coco, pescado frito y música tropical. Resido en Francia y poseo la doble nacionalidad franco-colombiana. Pero me considero un ciudadano del mundo. Por cosas del destino, mi infancia y mi adolescencia la pasé viajando por toda Colombia con mi familia. Yo pienso de ahí nació ese deseo  de ser nómada moderno y de estar en constante movimiento.
+        </p>
+      </div>  
     </div>
   </div>
   
-
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
